@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero />
     <Product />
-    <div className="-mt-48 mobile-s:-mt-12 max-w-full">
+    <div className="-mt-48 mobile-s:-mt-12 md:-mt-24 lg:-mt-36 w-full">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
         <path
           fill="#fff"
@@ -46,7 +46,7 @@ const IndexPage = () => (
     <Technology />
     <Client />
     <div
-      className="-mt-48  mobile-s:-mt-12 max-w-full"
+      className="-mt-48  mobile-s:-mt-12 md:-mt-24 max-w-full"
       style={{ transform: "scale(-1, 1)" }}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">

@@ -44,25 +44,25 @@ const Product = () => {
   ]
 
   const itemClass =
-    "bg-white p-8 mobile-s:p-5 rounded shadow mobile-s:text-center"
+    "bg-white p-8 mobile-s:p-5 lg:p-8 rounded shadow mobile-s:text-center lg:text-left"
 
   return (
     <section
-      className="pt-5 mobile-s:pt-3 pb-48 mobile-s:pb-12 bg-blue-600"
+      className="pt-5 mobile-s:pt-3 lg:pt-5 pb-48 mobile-s:pb-12 md:pb-28 lg:pb-48 bg-blue-600"
       style={{
         backgroundImage: `linear-gradient(359.62deg, rgb(215, 240, 250) 2.36%, rgb(255, 255, 255) 99.68%)`,
       }}
       id="product"
     >
       <Wrapper>
-        <h1 className="text-3xl mobile-s:text-lg font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2">
+        <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
           Layanan Kami
         </h1>
-        <p className="text-center text-gray-600 mobile-s:text-sm">
+        <p className="text-center text-gray-600 mobile-s:text-sm lg:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </p>
-        <div className="mt-10 mobile-s:mt-5 grid grid-cols-3 mobile-s:grid-cols-1 gap-4 mobile-s:gap-3">
+        <div className="mt-10 mobile-s:mt-5 grid grid-cols-3 mobile-s:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mobile-s:gap-3">
           <div className={itemClass}>
             <div>
               <StaticImage

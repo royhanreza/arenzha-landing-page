@@ -10,10 +10,10 @@ const Portfolio = () => {
   return (
     <section className="pt-5 pb-20 mobile-s:pb-5" id="portfolio">
       <Wrapper>
-        <h1 className="text-3xl mobile-s:text-lg font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2">
+        <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
           Portofolio
         </h1>
-        <p className="text-center text-gray-600 mobile-s:text-sm">
+        <p className="text-center text-gray-600 mobile-s:text-sm md:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </p>
@@ -24,8 +24,8 @@ const Portfolio = () => {
                 <Tab
                   className={({ selected }) =>
                     selected
-                      ? "text-white mobile-s:text-xs mx-1 bg-blue-600 rounded px-4 py-1"
-                      : "text-blue-600  mobile-s:text-xs mx-1 rounded px-4 py-1 hover:bg-gray-100"
+                      ? "text-white mobile-s:text-xs md:text-base mx-1 bg-blue-600 rounded px-4 py-1"
+                      : "text-blue-600  mobile-s:text-xs md:text-base mx-1 rounded px-4 py-1 hover:bg-gray-100"
                   }
                   key={tab}
                 >
@@ -43,7 +43,7 @@ const Portfolio = () => {
             </Tab.List>
             <Tab.Panels>
               <Tab.Panel>
-                <div className="mt-10 mobile-s:mt-5 grid grid-cols-3 mobile-s:grid-cols-1 gap-4 mobile-s:gap-3">
+                <div className="mt-10 mobile-s:mt-5 grid grid-cols-3 mobile-s:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mobile-s:gap-3 lg:gap-4">
                   <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
                     <div>
                       <StaticImage
@@ -55,7 +55,7 @@ const Portfolio = () => {
                       />
                     </div>
                   </div>
-                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer col-span-2 mobile-s:col-span-1 row-span-2 mobile-s:row-span-1">
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer col-span-2 mobile-s:col-span-1 lg:col-span-2 row-span-2 mobile-s:row-span-1 lg:row-span-2">
                     <div>
                       <StaticImage
                         src="../images/portfolio-2.webp"

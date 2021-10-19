@@ -46,7 +46,7 @@ const Nav = () => {
           //   style={{ marginBottom: `1.45rem` }}
         />
       </div>
-      <nav className="mobile-s:hidden">
+      <nav className="mobile-s:hidden lg:block">
         <ul className="flex m-0">
           {menus.map((menu, index) => (
             <li className="m-0 ml-10 font-inter font-bold" key={index}>
@@ -55,7 +55,7 @@ const Nav = () => {
           ))}
         </ul>
       </nav>
-      <div className="hidden mobile-s:block cursor-pointer">
+      <div className="hidden mobile-s:block cursor-pointer lg:hidden">
         <Menu size={32} onClick={() => toggleMobileNav()} />
       </div>
       <div
