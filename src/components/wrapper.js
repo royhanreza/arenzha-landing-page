@@ -1,0 +1,7 @@
+import * as React from "react"
+
+const Wrapper = ({ children }) => {
+  return <div className="max-w-screen-lg mx-auto px-3">{children}</div>
+}
+
+export default Wrapper
