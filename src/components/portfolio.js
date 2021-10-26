@@ -1,5 +1,4 @@
-import { Link } from "gatsby"
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Wrapper from "./wrapper"
 import { Tab } from "@headlessui/react"
@@ -13,9 +12,9 @@ const Portfolio = () => {
         <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
           Portofolio
         </h1>
-        <p className="text-center text-gray-600 mobile-s:text-sm md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt.
+        <p className="text-center text-gray-600 mobile-s:text-sm md:text-base lg:max-w-2xl lg:mx-auto">
+          Kami telah membantu klien kami dalam mengatasi permasalahan
+          operasional dengan pendekatan teknologi modern
         </p>
         <div className="mt-10">
           <Tab.Group>
@@ -47,8 +46,9 @@ const Portfolio = () => {
                   <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
                     <div>
                       <StaticImage
-                        src="../images/portfolio-1.webp"
+                        src="../images/portfolio/magenta-hrd-mobile.jpg"
                         // width={64}
+                        // height="100%"
                         quality={95}
                         formats={["auto", "webp", "avif"]}
                         alt="product"
@@ -56,9 +56,58 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer col-span-2 mobile-s:col-span-1 lg:col-span-2 row-span-2 mobile-s:row-span-1 lg:row-span-2">
+                    <StaticImage
+                      src="../images/portfolio/vapehitz.jpg"
+                      // width={100}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="product"
+                      objectFit="cover"
+                      objectPosition="50% 50%"
+                    />
+                  </div>
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
                     <div>
                       <StaticImage
-                        src="../images/portfolio-2.webp"
+                        src="../images/portfolio/magenta-hrd.jpg"
+                        // width={64}
+                        quality={95}
+                        formats={["auto", "webp", "avif"]}
+                        alt="product"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </Tab.Panel>
+              <Tab.Panel>
+                <div className="mt-10 mobile-s:mt-5 grid grid-cols-2 mobile-s:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mobile-s:gap-3 lg:gap-4">
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
+                    <div>
+                      <StaticImage
+                        src="../images/portfolio/metaprint.jpg"
+                        // width={64}
+                        // height="100%"
+                        quality={95}
+                        formats={["auto", "webp", "avif"]}
+                        alt="product"
+                      />
+                    </div>
+                  </div>
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
+                    <StaticImage
+                      src="../images/portfolio/vapehitz.jpg"
+                      // width={100}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="product"
+                      objectFit="cover"
+                      objectPosition="50% 50%"
+                    />
+                  </div>
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
+                    <div>
+                      <StaticImage
+                        src="../images/portfolio/magenta-hrd.jpg"
                         // width={64}
                         quality={95}
                         formats={["auto", "webp", "avif"]}
@@ -69,7 +118,7 @@ const Portfolio = () => {
                   <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
                     <div>
                       <StaticImage
-                        src="../images/portfolio-3.webp"
+                        src="../images/portfolio/magenta-eo.jpg"
                         // width={64}
                         quality={95}
                         formats={["auto", "webp", "avif"]}
@@ -80,19 +129,19 @@ const Portfolio = () => {
                 </div>
               </Tab.Panel>
               <Tab.Panel>
-                <div className="py-24">
-                  <div className="flex justify-center">
-                    <Inbox className="text-center text-gray-300" size={96} />
+                <div className="mt-10 mobile-s:mt-5 grid grid-cols-2 mobile-s:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mobile-s:gap-3 lg:gap-4">
+                  <div className="transition bg-white hover:shadow-2xl transform hover:-translate-y-2 cursor-pointer">
+                    <div>
+                      <StaticImage
+                        src="../images/portfolio/magenta-hrd-mobile.jpg"
+                        // width={64}
+                        // height="100%"
+                        quality={95}
+                        formats={["auto", "webp", "avif"]}
+                        alt="product"
+                      />
+                    </div>
                   </div>
-                  <p className="text-gray-300 text-center">No Content</p>
-                </div>
-              </Tab.Panel>
-              <Tab.Panel>
-                <div className="py-24">
-                  <div className="flex justify-center">
-                    <Inbox className="text-center text-gray-300" size={96} />
-                  </div>
-                  <p className="text-gray-300 text-center">No Content</p>
                 </div>
               </Tab.Panel>
               <Tab.Panel>

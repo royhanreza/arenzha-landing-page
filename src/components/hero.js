@@ -20,14 +20,15 @@ const Hero = () => (
             <span className="text-blue-600">Arenzha</span> Media Teknologi
           </h1>
           <p className="mt-5 mobile-s:mt-3 lg:mt-5 text-gray-600 mobile-s:text-sm md:text-base mobile-s:text-center lg:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Arenzha Media Teknologi merupakan perusahaan yang bergerak di bidang
+            teknologi informasi. Kami sebagai software developer dengan fitur
+            aplikasi berupa ERP menyediakan jasa aplikasi berbasis web, mobile,
+            maupn hybrid sesuai dengan alur dan kebutuhan perusahaan klien kami
+            yang beragam.
           </p>
           <div className="mobile-s:text-center lg:text-left">
             <Link
-              to="#"
+              to="#contact"
               className="px-4 mobile-s:px-3 py-3 mobile-s:py-2 bg-blue-600 text-white inline-block mobile-s:text-center mt-8 mobile-s:mt-5 rounded-sm mobile-s:text-sm"
             >
               Hubungi Kami

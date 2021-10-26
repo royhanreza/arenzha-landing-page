@@ -21,9 +21,10 @@ const Technology = () => {
               Teknologi
             </h1>
             <p className="text-center text-gray-600 mobile-s:text-sm md:text-base lg:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt.
+              Kami memilih teknologi yang akan digunakan dengan seksama dengan
+              mempertimbangkan kecepatan, <em>support</em>, serta kemudahan
+              dalam pemeliharaan demi menciptakan aplikasi yang tepat guna dalam
+              suatu permasalahan.
             </p>
           </div>
           <div className="w-2/3 mobile-s:w-full lg:w-2/3 pl-20 mobile-s:pl-0 lg:pl-20 pt-12 mobile-s:pt-6 lg:pt-12">

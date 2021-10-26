@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Wrapper from "./wrapper"
@@ -20,41 +19,65 @@ const Contact = () => {
             <h1 className="text-3xl mobile-s:text-lg lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
               Hubungi Kami
             </h1>
-            <form className="mobile-s:text-sm mobile-s:px-3 md:px-0 md:text-base">
+            <form
+              name="contact"
+              method="POST"
+              className="mobile-s:text-sm mobile-s:px-3 md:px-0 md:text-base"
+              data-netlify="true"
+            >
               <div className="">
-                <label className="text-gray-500 block mb-2">Nama</label>
+                <label className="text-gray-500 block mb-2" htmlFor="name">
+                  Nama
+                </label>
                 <input
                   type="text"
                   className="bg-gray-50 rounded p-2 w-full"
                   placeholder="Masukkan nama"
+                  name="name"
+                  id="name"
                 />
               </div>
               <div className=" mt-4">
-                <label className="text-gray-500 block mb-2">Email</label>
+                <label className="text-gray-500 block mb-2" htmlFor="email">
+                  Email
+                </label>
                 <input
                   type="text"
                   className="bg-gray-50 rounded p-2 w-full"
                   placeholder="Masukkan email"
+                  name="email"
+                  id="email"
                 />
               </div>
               <div className=" mt-4">
-                <label className="text-gray-500 block mb-2">Subjek</label>
+                <label className="text-gray-500 block mb-2" htmlFor="subject">
+                  Subjek
+                </label>
                 <input
                   type="text"
                   className="bg-gray-50 rounded p-2 w-full"
                   placeholder="Masukkan subjek"
+                  name="subject"
+                  id="subject"
                 />
               </div>
               <div className=" mt-4">
-                <label className="text-gray-500 block mb-2">Pesan</label>
+                <label className="text-gray-500 block mb-2" htmlFor="message">
+                  Pesan
+                </label>
                 <textarea
                   type="text"
                   className="bg-gray-50 rounded p-2 w-full"
                   placeholder="Masukkan pesan"
+                  name="message"
+                  id="message"
                 ></textarea>
               </div>
               <div className=" mt-4">
-                <button className="px-4 py-2 bg-blue-600 text-white block w-full rounded">
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-blue-600 text-white block w-full rounded"
+                >
                   Kirim
                 </button>
               </div>

@@ -41,6 +41,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `arenzha, arenzha media teknologi, it consultant, teknologi, it, jasa pembuatan software, erp, buat software, aplikasi web, aplikasi mobile, pembuatan aplikasi, rezha rizki sutransah, royhan faisal reza, rifan hidayat, arzaya, jasa pembuatan aplikasi mobile, aplikasi hybrid, jasa pembuatan aplikasi`,
+        },
+        {
           property: `og:title`,
           content: title,
         },

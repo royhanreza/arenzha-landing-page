@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: ``,
+    description: `Arenzha Media Teknologi merupakan perusahaan yang bergerak di bidang teknologi informasi. Kami sebagai software developer dengan fitur aplikasi berupa ERP menyediakan jasa aplikasi berbasis web, mobile, maupn hybrid sesuai dengan alur dan kebutuhan perusahaan klien kami yang beragam`,
+    author: `@arenzhamediateknologi`,
+    siteUrl: `https://arenzha.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,12 +23,12 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#2196F3`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/arenzha-logo-icon.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-postcss`,
