@@ -11,14 +11,14 @@ const Client = () => {
       style={{
         backgroundImage: `linear-gradient(359.62deg, rgb(215, 240, 250) 2.36%, rgb(255, 255, 255) 99.68%)`,
       }}
+      id="client"
     >
       <Wrapper>
         <h1 className="text-3xl mobile-s:text-lg md:text-2xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2">
           Klien Kami
         </h1>
         <p className="text-center text-gray-600 mobile-s:text-sm md:text-base lg:max-w-2xl lg:mx-auto">
-          Kami memiliki klien dengan kebutuhan yang beragam dan mempercayakan
-          solusinya kepada kami
+
         </p>
         <div className="mt-10 grid grid-cols-2 mobile-s:grid-cols-1 md:grid-cols-2 lg:gap-3">
           <div className={itemClassName}>

@@ -7,14 +7,14 @@ import { Inbox } from "react-feather"
 const Portfolio = () => {
   const [tabs] = React.useState(["All", "Website", "Mobile", "Lainnya"])
   return (
-    <section className="pt-5 pb-20 mobile-s:pb-5" id="portfolio">
+    <section className="pt-20 pb-20 mobile-s:pb-5" id="portfolio">
       <Wrapper>
         <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
           Portofolio
         </h1>
-        <p className="text-center text-gray-600 mobile-s:text-sm md:text-base lg:max-w-2xl lg:mx-auto">
-          Kami telah membantu klien kami dalam mengatasi permasalahan
-          operasional dengan pendekatan teknologi modern
+        <p className="text-justify text-gray-600 mobile-s:text-sm md:text-base lg:max-w-2xl lg:mx-auto">
+        Kami telah mengerjakan berbagai portofolio dan studi kasus dari berbagai klien mulai dari perusahaan manufaktur hingga retail.
+        Hasil dari portofolio tersebut diharapkan mampu memberikan solusi terbaik untuk kebutuhan sistem aplikasi sebagai bentuk transformasi dan perkembangan di era digital.
         </p>
         <div className="mt-10">
           <Tab.Group>

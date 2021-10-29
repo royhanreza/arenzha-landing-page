@@ -3,53 +3,8 @@ import * as React from "react"
 import Wrapper from "./wrapper"
 
 const Product = () => {
-  // const products = [
-  //   {
-  //     name: "Purchasing",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/002-cart.png",
-  //   },
-  //   {
-  //     name: "Manufaktur",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/006-delivery-truck.png",
-  //   },
-  //   {
-  //     name: "Sales",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/003-sale.png",
-  //   },
-  //   {
-  //     name: "Supply Chain Management",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/001-deal.png",
-  //   },
-  //   {
-  //     name: "HR Management",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/005-list.png",
-  //   },
-  //   {
-  //     name: "Finance",
-  //     description:
-  //       // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor.",
-  //       "",
-  //     imageUrl: "../images/004-payment.png",
-  //   },
-  // ]
-
-  const itemClass =
-    "bg-white p-8 mobile-s:p-5 lg:p-8 rounded shadow mobile-s:text-center lg:text-left"
+  
+  const itemClass ="bg-white p-8 mobile-s:p-5 lg:p-8 rounded shadow mobile-s:text-center lg:text-left"
 
   return (
     <section
@@ -61,11 +16,14 @@ const Product = () => {
     >
       <Wrapper>
         <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4">
-          Layanan Kami
+          Produk & Solusi
         </h1>
         <p className="text-center text-gray-600 mobile-s:text-sm lg:text-base lg:max-w-xl lg:mx-auto lg:text-center">
-          Kami telah berpengalaman dalam pembuatan aplikasi ERP (Enterprise
-          Resource Planning) dengan kebutuhan yang berbeda-beda.
+          Software Development
+        </p>
+        <p className="text-justify text-gray-600 mobile-s:text-sm lg:text-base lg:max-w-xl lg:mx-auto lg:text-center">
+          Dengan pengalaman dan tim kami miliki, kami siap membantu untuk menawarkan solusi total dalam pengembangan sistem aplikasi sesuai dengan
+          kebutuhan unit bisnis Anda sehingga dapat membantu Anda dalam membuat keputusan secara efektif, efisien dan aman dalam setiap proses bisnis.
         </p>
         <div className="mt-10 mobile-s:mt-5 grid grid-cols-3 mobile-s:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mobile-s:gap-3">
           <div className={itemClass}>
