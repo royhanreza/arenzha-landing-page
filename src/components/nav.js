@@ -29,6 +29,10 @@ const Nav = () => {
       name: "Kontak",
       link: "#contact",
     },
+    {
+      name: "Privacy",
+      link: "/privacy",
+    },
   ]
 
   const [mobileNav, setMobileNav] = React.useState(false)
