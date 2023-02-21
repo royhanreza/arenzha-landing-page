@@ -6,11 +6,11 @@ import { Menu } from "react-feather"
 const Nav = () => {
   const menus = [
     {
-      name: "Home",
+      name: "Beranda",
       link: "#home",
     },
     {
-      name: "Produk",
+      name: "Produk & Layanan",
       link: "#product",
     },
     {
@@ -22,8 +22,16 @@ const Nav = () => {
       link: "#technology",
     },
     {
+      name: "Klien",
+      link: "#client",
+    },
+    {
       name: "Kontak",
       link: "#contact",
+    },
+    {
+      name: "Privacy",
+      link: "/privacy",
     },
   ]
 

@@ -20,7 +20,7 @@ const Technology = () => {
             <h1 className="text-3xl mobile-s:text-lg md:text-2xl lg:text-3xl font-bold leading-tight tracking-wide text-center py-4 mobile-s:py-2 lg:py-4 lg:text-left">
               Teknologi
             </h1>
-            <p className="text-center text-gray-600 mobile-s:text-sm md:text-base lg:text-left">
+            <p className="text-justify text-gray-600 mobile-s:text-sm md:text-base lg:text-justify">
               Kami memilih teknologi yang akan digunakan dengan seksama dengan
               mempertimbangkan kecepatan, <em>support</em>, serta kemudahan
               dalam pemeliharaan demi menciptakan aplikasi yang tepat guna dalam
