@@ -71,7 +71,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/002-cart.png"
+                src="../../images/002-cart.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -87,7 +87,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/006-delivery-truck.png"
+                src="../../images/006-delivery-truck.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -103,7 +103,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/003-sale.png"
+                src="../../images/003-sale.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -119,7 +119,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/001-deal.png"
+                src="../../images/001-deal.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -135,7 +135,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/005-list.png"
+                src="../../images/005-list.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
@@ -151,7 +151,7 @@ const ProductV2 = () => {
           <div className={itemClass}>
             <div>
               <StaticImage
-                src="../images/004-payment.png"
+                src="../../images/004-payment.png"
                 width={64}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
